@@ -1,4 +1,4 @@
-# Researcher Workflow
+# Research Workflow — Dr Haizal UTM
 
 A reusable AI skill for critically reviewing research manuscripts across disciplines. It connects literature synthesis, gap assessment, scholarly writing, peer-review critique, and evidence verification in one seven-stage workflow.
 
@@ -31,7 +31,7 @@ $researchSkillsRoot = if ($env:CODEX_HOME) {
     Join-Path $HOME '.codex/skills'
 }
 New-Item -ItemType Directory -Path $researchSkillsRoot -Force | Out-Null
-git clone https://github.com/danialkamarolzaman/researcher-workflow.git (Join-Path $researchSkillsRoot 'researcher-workflow')
+git clone https://github.com/danialkamarolzaman/Research-workflow-dr-haizal-utm.git (Join-Path $researchSkillsRoot 'researcher-workflow')
 ```
 
 If the destination already contains an installed skill, keep your existing copy and review changes before replacing it. A private repository requires GitHub access to clone.
