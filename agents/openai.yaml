@@ -1,0 +1,4 @@
+interface:
+  display_name: "Researcher Workflow"
+  short_description: "Review, revise, and verify research across fields"
+  default_prompt: "Use $researcher-workflow to apply the full seven-step review to my supplied manuscript and papers, revise the Introduction, and produce a prioritized evidence-based action plan."
